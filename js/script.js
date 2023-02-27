@@ -21,7 +21,7 @@ const timer = () => {
   
   // Add Zeros If Less Than 10
   days <= 9 ? days = `0${days}` : days
-  hours <= 9 ? days = `0${hours}` : hours
+  hours <= 9 ? hours = `0${hours}` : hours
   minutes <= 9 ? minutes = `0${minutes}` : minutes
   seconds <= 9 ? seconds = `0${seconds}` : seconds
 
