@@ -30,7 +30,7 @@ h1 {
   letter-spacing: 6px;
   font-size: 1.5rem;
   text-align: center;
-  margin: 110px 0;
+  margin: 110px 0 2rem;
 }
 
 h2 {
@@ -64,11 +64,15 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
   gap: 25px;
 }
 
 .card-number {
   --card-size: 140px;
+  flex: 1;
   position: relative;
   height: var(--card-size);
   width: var(--card-size);
@@ -148,7 +152,7 @@ main {
 
 @media (max-width: 800px) {
   .card-number {
-    --card-size: 100px;
+    --card-size: 110px;
   }
 
   span {
@@ -171,6 +175,7 @@ main {
 
   h1 {
     margin-bottom: 60px;
+    font-size: 1rem;
   }
 
   span {
